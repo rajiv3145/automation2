@@ -25,6 +25,7 @@ public class automation2 {
 		Driver.manage().window().maximize();
 		Driver.findElement(By.xpath("//li[contains(text(),'Round Trip')]")).click();
 		Thread.sleep(2000);
+		System.out.println("Rajiv");
 		}
 		
 		
@@ -34,10 +35,13 @@ public class automation2 {
 	    	
 	    Driver.findElement(By.xpath("//input[@id='FromSector_show']")).clear();
 	    Thread.sleep(2000);
+	    
 	    Driver.findElement(By.xpath("//input[@id='FromSector_show']")).sendKeys("Bangalore");
 	    Thread.sleep(2000);
+	    
 	    Driver.findElement(By.xpath("//input[@id='Editbox13_show']")).clear();
 	    Thread.sleep(2000);
+	    
 	    Driver.findElement(By.xpath("//input[@id='Editbox13_show']")).sendKeys("Delhi");
 	    	 
 	    	
